@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a9d3a19c5b34e48acffa0e40803781, type: 3}
+  m_Name: UserData_
+  m_EditorClassIdentifier: 
+  playerStats: {fileID: 0}
+  HpText: {fileID: 0}
+  AtkText: {fileID: 0}
+  DefText: {fileID: 0}
+  CritText: {fileID: 0}
+  GoldText: {fileID: 0}
+  LevelText: {fileID: 0}
+  NameText: {fileID: 0}
+  BaseHp: 50
+  BaseAtk: 20
+  BaseDef: 10
+  BaseCrit: 15
+  BaseGold: 10000
+  BaseLevel: 10
+  BaseName: "\uD1A0\uBCA4\uBA38\uB9AC\uC6A9\uC0AC"
