@@ -8,6 +8,16 @@ public class UIManager : MonoBehaviour
     public GameObject inventoryScreen;
     public GameObject playerScreen;
 
+    public ItemSlot[] itemslots;
+
+    public void SetInventory()
+    {
+        for (int i = 0; i < DataManager.instance.gameData.myItems.Length; i++) 
+        {
+            itemslots[i].Init(DataManager.instance.gameData.myItems[i]);
+        }
+    }
+
     void Start()
     {
         ShowMainScreen();     

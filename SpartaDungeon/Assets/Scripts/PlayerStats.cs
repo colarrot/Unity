@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[CreateAssetMenu(fileName = "UserData_", menuName = "Data/UserData", order = 0)]
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStats : ScriptableObject
 {
+
     public PlayerStats playerStats;
 
     public Text HpText;
